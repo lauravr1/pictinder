@@ -39,7 +39,7 @@ h2 {
     font-weight: 700;
     padding: 5px 20px 5px 20px;
     margin-bottom: 0.5em;
-    text-align: right;
+    text-align: center;
 }
 
 h3 {
@@ -52,7 +52,7 @@ h3 {
 
 h4 {
     font-family: 'AcuminVariable', sans-serif;
-    font-size: 1em;
+    font-size: 0.75em;
     color: #6D6F71;
     margin-bottom: 0.5em;
     text-align: center;
@@ -60,7 +60,7 @@ h4 {
 
 p {
     font-family: 'AcuminVariable', sans-serif;
-    font-size: 1em;
+    font-size: 0.75em;
     color: #6D6F71;
     margin-bottom: 0.5em;
     text-align: center;
@@ -101,6 +101,8 @@ a {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    height: auto;
+    text-decoration-line: underline;
 }
 
 .container .moreinformation:hover {
@@ -127,12 +129,10 @@ a {
     cursor: pointer;
     color: #ffffff;
     font-family: Arial;
-    font-size: 16px;
+    font-size: 19px;
     padding: 16px 31px;
     text-shadow: 0px 1px 0px #2f6627;
     text-decoration-line: underline;
-    display: inline-block;
-    justify-content: center;
 }
 
 .next:hover {
@@ -153,10 +153,11 @@ a {
     cursor: pointer;
     color: #ffffff;
     font-family: Arial;
-    font-size: 16px;
+    font-size: 19px;
     padding: 16px 22px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #2f6627;
+    text-decoration-line: underline;
     display: inline-block;
     justify-content: center;
 }
@@ -219,4 +220,19 @@ footer {
 
 .links {
     list-style-type: none;
+}
+
+button {
+    margin: 1vw;
+    background-color: #5475B6;
+    border-radius: 28px;
+    border: 1px solid #5475B6;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 5px 11px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+    height: auto;
 }
