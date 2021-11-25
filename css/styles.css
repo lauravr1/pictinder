@@ -10,8 +10,8 @@ body {
 
 header img {
     float: left;
-    width: 100px;
-    height: 90px;
+    width: 90px;
+    height: 80px;
     background: #555;
 }
 
@@ -23,11 +23,10 @@ header h1 {
 
 h1 {
     font-family: 'FilsonPro', sans-serif;
-    font-size: 2em;
+    font-size: 25px;
     text-transform: uppercase;
     color: #5475B6;
     font-weight: 700;
-    margin-bottom: 0.5em;
     display: inline-block;
 }
 
@@ -102,7 +101,6 @@ a {
     cursor: pointer;
     border-radius: 5px;
     height: auto;
-    text-decoration-line: underline;
 }
 
 .container .moreinformation:hover {
@@ -123,16 +121,15 @@ a {
 
 .next {
     margin: 1vw;
-    background-color: #EB4F75;
+    background-color: #5475B6;
     border-radius: 28px;
-    border: 1px solid #EB4F75;
+    border: 1px solid #5475B6;
     cursor: pointer;
     color: #ffffff;
     font-family: Arial;
-    font-size: 19px;
-    padding: 16px 31px;
-    text-shadow: 0px 1px 0px #2f6627;
-    text-decoration-line: underline;
+    font-size: 16px;
+    padding: 16px 22px;
+    width: 45%;
 }
 
 .next:hover {
@@ -153,13 +150,13 @@ a {
     cursor: pointer;
     color: #ffffff;
     font-family: Arial;
-    font-size: 19px;
+    font-size: 16px;
     padding: 16px 22px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #2f6627;
-    text-decoration-line: underline;
     display: inline-block;
     justify-content: center;
+    width: 45%;
 }
 
 .moreinformation:hover {
@@ -235,4 +232,34 @@ button {
     text-decoration: none;
     text-shadow: 0px 1px 0px #2f6627;
     height: auto;
+}
+
+.submit {
+    margin: 1vw;
+    background-color: #5475B6;
+    border-radius: 28px;
+    border: 1px solid #5475B6;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 5px 11px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+    height: auto;
+}
+
+label {
+    font-family: 'AcuminVariable', sans-serif;
+    font-size: 1rem;
+    color: #6D6F71;
+    margin-bottom: 0.5em;
+    text-align: center;
+    margin: 0%;
+    margin-top: 0.75em;
+    margin-bottom: 0;
+}
+
+input {
+    margin: 0%;
 }
