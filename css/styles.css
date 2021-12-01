@@ -6,6 +6,9 @@ html {
 body {
     background-color: #FFFFFF;
     width: 100vw;
+    margin: 0;
+    padding: 0;
+    border: 5px solid #EB4F75;
 }
 
 header img {
@@ -80,6 +83,9 @@ a {
 .container {
     position: relative;
     width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container img {
@@ -190,13 +196,6 @@ form {
     height: 10%;
 }
 
-.container {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-}
-
 form {
     font-family: 'AcuminVariable', sans-serif;
     font-size: 1em;
@@ -221,9 +220,9 @@ footer {
 
 button {
     margin: 1vw;
-    background-color: #5475B6;
+    background-color: #e96586;
     border-radius: 28px;
-    border: 1px solid #5475B6;
+    border: 3px solid #EB4F75;
     cursor: pointer;
     color: #ffffff;
     font-family: Arial;
@@ -236,9 +235,9 @@ button {
 
 .submit {
     margin: 1vw;
-    background-color: #5475B6;
+    background-color: #6786c4;
     border-radius: 28px;
-    border: 1px solid #5475B6;
+    border: 3px solid #5475B6;
     cursor: pointer;
     color: #ffffff;
     font-family: Arial;
@@ -252,6 +251,7 @@ button {
 label {
     font-family: 'AcuminVariable', sans-serif;
     font-size: 1rem;
+    font-weight: bold;
     color: #6D6F71;
     margin-bottom: 0.5em;
     text-align: center;
