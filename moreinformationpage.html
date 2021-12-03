@@ -6,30 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amsterdam Lookout</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script type="text/javascript" src="index.js"></script>
-
-    <style>
-        div.gallery {
-            margin: 5px;
-            border: 1px solid #ccc;
-            float: left;
-            width: 180px;
-        }
-        
-        div.gallery:hover {
-            border: 1px solid #777;
-        }
-        
-        div.gallery img {
-            width: 100%;
-            height: auto;
-        }
-        
-        div.desc {
-            padding: 15px;
-            text-align: center;
-        }
-    </style>
+    <script src="index.js"></script>
 
 </head>
 
@@ -50,22 +27,23 @@
         </article>
 
 
-        <div id="imageWrapper"><img class="allimages" src="images/image1.jpg" alt="amsterdamlookout"></div>
-        <div id="imageWrapper"><iframe src="https://www.google.com/maps/d/embed?mid=169qUnCBR6zs2CvGxhwWUjhWOzoFuCQHf"></iframe></div>
+        <div class="imageWrapper"><img class="allimages" src="images/image1.jpg" alt="amsterdamlookout"></div>
+        <iframe src="https://www.google.com/maps/d/embed?mid=169qUnCBR6zs2CvGxhwWUjhWOzoFuCQHf"></iframe>
         <!-- Voor de javascript hebben allebei deze elementen dezelfde id nodig voor de getElementById()-->
 
     </main>
 
     <footer>
         <nav>
-            <a href="index.html"><button>Home</button></a>
-            <a href="contactpage.html"><button>Contact</button></a>
-            <a href="sendin.html"><button>Send in</button></a>
-            <a href="sources.html"><button>Sources</button></a>
+            <a href="index.html" class="button">Home</a>
+            <a href="contactpage.html" class="button">Contact</a>
+            <a href="sendin.html" class="button">Send in</a>
+            <a href="sources.html" class="button">Sources</a>
         </nav>
 
         <br>
         <p>For more wisdom, visit <a href="https://wordsofwisdam.com/">wordsofwisdam.com.</a></p>
+        <br>
     </footer>
 
 </body>
