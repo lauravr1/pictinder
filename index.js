@@ -10,6 +10,6 @@ function loadImage() {
 
 function loadShowpage() {
     var imageNumber = localStorage.getItem("imageNumber");
-    document.getElementById("imageWrapper").innerHTML = urlArray[imageNumber];
-    console.log("hallo");
+    document.getElementsByClassName("imageWrapper")[0].innerHTML = urlArray[imageNumber];
+    console.log(document.getElementsByClassName("imageWrapper"));
 }
